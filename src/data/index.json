@@ -1,0 +1,32 @@
+
+{
+    "portfolio": [
+        {
+            "id": "1",
+            "src": "./img/itineraryscreenshots.png",
+            "title": "iTinerary",
+            "description": "A full stack mobile application built for the final group project of the Northcoders software engineering bootcamp. iTinerary is a trip planning application which creates a customised list of activity recommendations for the user's holiday destination, based on their personal preferences, and creates a bespoke schedule for the user.",
+            "tech": "React Native, Expo, Javascript, Firebase, Firestore, Mapbox Api, axios, API Ninjas",
+            "link": "https://github.com/keireasterbrook/iTinerary-chain-reaction",
+            "demo": "https://northcoders.com/project-phase/itinerary"
+        },
+        {
+            "id": "2",
+            "src": "./img/nc-news-frontend.png",
+            "title": "NCNews - Front end",
+            "description": "A Reddit-style news application which connects to the NCnews API (built during the back-end phase of this project) to allow users to browse and interact with articles and comments from the API.",
+            "tech": "React, Javascript, CSS",
+            "link": "https://github.com/alicewilson17/fe-nc-news",
+            "demo": "https://alicewilson-ncnews.netlify.app/"
+        },
+        {
+            "id": "3",
+            "src": "./img/nc-news-backend.png",
+            "title": "NCNews REST API",
+            "description": "A REST API for NCNews, which provides data for articles, topics, comments and users on multiple endpoints.",
+            "tech": "Javascript, Node.js, Express.js, PostgreSQL, Jest",
+            "link": "https://github.com/alicewilson17/nc-news",
+            "demo": "https://nc-news-uv52.onrender.com"
+        }
+    ]
+}
