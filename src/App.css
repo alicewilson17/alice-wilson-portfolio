@@ -179,6 +179,10 @@ h2 {
   line-height: 24px;
   cursor: pointer;
 }
+
+.navbar--content:hover {
+  color:rgb(117, 117, 117)
+}
 .link__hover-effect {
   position: relative;
 }
@@ -209,6 +213,7 @@ h2 {
 .navbar--active-content {
   color: var(--primary)
 }
+
 
 
 
