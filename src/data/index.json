@@ -26,7 +26,7 @@
             "description": "A REST API for NCNews, which provides data for articles, topics, comments and users on multiple endpoints.",
             "tech": "Javascript, Node.js, Express.js, PostgreSQL, Jest",
             "link": "https://github.com/alicewilson17/nc-news",
-            "demo": "https://nc-news-uv52.onrender.com"
+            "demo": ""
         }
     ]
 }

@@ -19,22 +19,10 @@ p {
   margin: 0;
 }
 
-
-/* section {
-  padding-top: 4vh;
-  height: 96vh;
-  margin: 0 10rem;
-  box-sizing: border-box;
-  min-height: fit-content;
-} */
-
-
 :root {
   --primary: #c3714e;
   --heading-color: #282938;
-  --bg-shade: #FDF8F0;
-  --github: #e62872;
-  --darkblue: #1c1e53;
+  --bg-shade: #fdf0f8;
   --black: #000;
   --white: #fff;
 }
@@ -576,7 +564,6 @@ font-size: 32px;
   flex: 1 0 0;
   background: #fff;
   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
-  cursor: pointer;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   width: 80%;
@@ -586,34 +573,34 @@ font-size: 32px;
   padding: 32px;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
   gap: 32px;
   align-self: stretch;
 }
 .portfolio--section--title {
   color: var(--heading-color);
-  font-size: 20px;
+  font-size: 22px;
 }
 .portfolio--link {
   text-decoration: none;
   display: flex;
   gap: 16px;
-  border-bottom: 1.33px solid var(--primary);
-  padding-bottom: 10.6px;
   font-weight: 600;
-}
-.portfolio--section--card:hover path {
-  stroke: #006b6a;
 }
 
 .portfolio--link a{
-  color: black;
+  color: white;
+  background-color: #64646e;
   text-decoration: none;
   font-size: 17px;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+
 }
 
 .portfolio--link a:hover {
-  text-decoration: underline;
-  color: rgb(92, 92, 92);
+  background-color: #c5c5c5;
+  color:black;
 }
 
 /*Contact me styling */
