@@ -13,7 +13,7 @@ export default function HeroSection() {
            <h1 className="title">Alice Wilson</h1>
            <p className="section__text__p2">Full-stack Developer</p>
            <div className="btn-container">
-           <button className="btn btn-color-2" onClick={() => {openInNewTab('./img/alicewilson-cv.pdf')}}>Download CV</button>
+           <button className="btn btn-color-2" onClick={() => {openInNewTab('./img/cv.pdf')}}>Download CV</button>
                       
                     </div>
                    <div id="socials-container">

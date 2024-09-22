@@ -2,7 +2,7 @@
 {
     "portfolio": [
         {
-            "id": "1",
+            "id": 1,
             "src": "./img/itineraryscreenshots.png",
             "title": "iTinerary",
             "description": "A full stack mobile application built for the final group project of the Northcoders software engineering bootcamp. iTinerary is a trip planning application which creates a customised list of activity recommendations for the user's holiday destination, based on their personal preferences, and creates a bespoke schedule for the user.",
@@ -11,7 +11,7 @@
             "demo": "https://northcoders.com/project-phase/itinerary"
         },
         {
-            "id": "2",
+            "id": 2,
             "src": "./img/nc-news-frontend.png",
             "title": "NCNews - Front end",
             "description": "A Reddit-style news application which connects to the NCnews API (built during the back-end phase of this project) to allow users to browse and interact with articles and comments from the API.",
@@ -20,13 +20,22 @@
             "demo": "https://alicewilson-ncnews.netlify.app/"
         },
         {
-            "id": "3",
+            "id": 3,
             "src": "./img/nc-news-backend.png",
             "title": "NCNews REST API",
             "description": "A REST API for NCNews, which provides data for articles, topics, comments and users on multiple endpoints.",
             "tech": "Javascript, Node.js, Express.js, PostgreSQL, Jest",
             "link": "https://github.com/alicewilson17/nc-news",
             "demo": ""
+        },
+        {
+           "id": 4,
+            "src": "./img/soulflow-img.png",
+            "title": "Soulflow Yoga Studio Website",
+            "description": "A yoga studio website built using React, styled with CSS and designed using Figma.",
+            "tech": "React, Javascript, CSS, API Ninjas",
+            "link": "https://github.com/alicewilson17/soulflow-yoga-website",
+            "demo": "https://soulflowyoga.netlify.app/" 
         }
     ]
 }

@@ -15,7 +15,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "dev": "vite",
+    "build": "react-scripts build",
+    "serve": "vite preview"
   },
   "browserslist": {
     "production": [

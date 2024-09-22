@@ -153,7 +153,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 4rem;
+  padding: 0.5rem 4rem;
   background: var(--white);
   box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -164,8 +164,8 @@ h2 {
 .navbar--items > ul {
   list-style: none; /*removes the bullet points from the list items*/
   display: flex;
-  align-items: flex-start;
-  gap: 42.667px;
+  align-items: center;
+  gap: 2.5rem;
   text-decoration: none;
 }
 .navbar--items ul > li > a {
@@ -246,9 +246,7 @@ h2 {
   line-height: 3.25rem;
 }
 
-/* .section__text p {
-  font-weight: 400;
-} */
+
 
 .section__text__p1 {
   text-align: center;

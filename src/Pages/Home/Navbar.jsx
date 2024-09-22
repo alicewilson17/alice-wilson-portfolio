@@ -93,8 +93,6 @@ function Navbar() {
                             </Link>
                     </li>
                   
-                </ul>
-            </div>
             <Link
             onClick={closeMenu}
             activeClass="navbar--active-content"
@@ -104,6 +102,8 @@ function Navbar() {
             duration={500}
             to="Contact"
             className="btn btn-outline-primary">Contact Me</Link>
+                </ul>
+            </div>
                     </nav>
 
     )
