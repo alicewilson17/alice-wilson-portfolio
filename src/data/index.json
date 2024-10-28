@@ -1,6 +1,33 @@
 
 {
     "portfolio": [
+ {
+            "id": 1,
+             "src": "./img/events-platform-screenshot.png",
+             "title": "There She Codes",
+             "description": "A full-stack events platform for women in tech.",
+             "tech": "Javascript, Node.js, Express.js, PostgreSQL, React, SASS, Jest, Swagger UI, JWT Authentication",
+             "link": "https://github.com/alicewilson17/events-platform",
+             "demo": "https://thereshecodes.netlify.app/" 
+         },
+{
+         "id": 2,
+         "src": "./img/escape-game-screenshots.png",
+         "title": "Escape Game Companion",
+         "description": "A mobile-friendly web application acting as a digital companion for an interactive escape room game, allowing teams to input answers, track progress, and view a real-time leaderboard.",
+         "tech": "Javascript, React, Firebase, CSS",
+         "link": "https://github.com/alicewilson17/sixty-escape-game",
+         "demo": "https://sixty-escape-game.netlify.app/" 
+     },
+  {
+           "id": 3,
+            "src": "./img/soulflow-img.png",
+            "title": "Soulflow Yoga Studio Website",
+            "description": "A yoga studio website built using React, styled with CSS and designed using Figma.",
+            "tech": "React, Javascript, CSS, API Ninjas",
+            "link": "https://github.com/alicewilson17/soulflow-yoga-website",
+            "demo": "https://soulflowyoga.netlify.app/" 
+        },
         {
             "id": 4,
             "src": "./img/itineraryscreenshots.png",
@@ -27,33 +54,6 @@
             "tech": "Javascript, Node.js, Express.js, PostgreSQL, Jest",
             "link": "https://github.com/alicewilson17/nc-news",
             "demo": ""
-        },
-        {
-           "id": 3,
-            "src": "./img/soulflow-img.png",
-            "title": "Soulflow Yoga Studio Website",
-            "description": "A yoga studio website built using React, styled with CSS and designed using Figma.",
-            "tech": "React, Javascript, CSS, API Ninjas",
-            "link": "https://github.com/alicewilson17/soulflow-yoga-website",
-            "demo": "https://soulflowyoga.netlify.app/" 
-        },
-        {
-            "id": 1,
-             "src": "./img/events-platform-screenshot.png",
-             "title": "There She Codes",
-             "description": "A full-stack events platform for women in tech.",
-             "tech": "Javascript, Node.js, Express.js, PostgreSQL, React, SASS, Jest, Swagger UI, JWT Authentication",
-             "link": "https://github.com/alicewilson17/events-platform",
-             "demo": "https://thereshecodes.netlify.app/" 
-         },
-{
-         "id": 2,
-         "src": "./img/escape-game-screenshots.png",
-         "title": "Escape Game Companion",
-         "description": "A mobile-friendly web application acting as a digital companion for an interactive escape room game, allowing teams to input answers, track progress, and view a real-time leaderboard.",
-         "tech": "Javascript, React, Firebase, CSS",
-         "link": "https://github.com/alicewilson17/sixty-escape-game",
-         "demo": "https://sixty-escape-game.netlify.app/" 
-     }
+        }
     ]
 }
