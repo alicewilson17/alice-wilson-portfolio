@@ -13,11 +13,9 @@ export default function AboutMe() {
         </div>
         <div className="about-details-container">
           <div className="text-container">
-            <p className="about-text">Hi! I'm Alice, a recent career changer to the world of Software Development. I have a strong background in science, technology
-and law stemming from my experience as a Patent Attorney.</p>
-<p className="about-text">I enjoy
-thinking creatively to solve real-world problems and seeing projects come to life. Eager to leverage my diverse skillset and passion for innovation, I am seeking an opportunity that will keep me constantly learning whilst adding value to
-both individuals and businesses.</p>
+            <p className="about-text">Hi! I’m Alice, a Junior Software Engineer and former Patent Attorney with a diverse background in tech, science and law. After graduating from the Northcoders bootcamp earlier this year, I now work as a freelance developer, honing my skills in full-stack development.</p>
+<p className="about-text">I'm <b>actively seeking full-time opportunities</b> in software engineering, where I can continue to grow as a developer, contribute to impactful projects, and be part of a supportive, innovative team.</p>
+<p className="about-text">Through my bootcamp and freelance web development contracts, I’ve built end-to-end web and mobile applications using technologies such as JavaScript, React, React Native, Node.js, Express, HTML, CSS, and PostgreSQL. I’m eager to use my technical skills to help solve real-world problems and build solutions that improve lives.</p>
             
           </div>
           
@@ -32,8 +30,11 @@ both individuals and businesses.</p>
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>Northcoders Software Engineering Bootcamp</p>
-              <p>Code First Girls Javascript Kickstarter</p>
+              <ul>
+             
+              <li>Junior Software Engineer (Freelance Contract) at Tech Returners</li>
+              <li>Junior Software Engineer (Freelance Contract) at Sixty Learn</li>
+              </ul>
             </div>
             <div class="details-container">
               <img
@@ -42,11 +43,14 @@ both individuals and businesses.</p>
                 class="icon"
               />
               <h3>Education</h3>
-              <p>
-                MChem Chemistry (1st Class Hons) - Durham University <br />
-                MSc Management of Intellectual Property (Distinction) - Queen
+              <ul>
+        
+              <li>Northcoders Software Engineering Bootcamp</li>
+                <li>MSc Management of Intellectual Property (Distinction) - Queen
                 Mary University of London
-              </p>
+                </li>
+                <li>MChem Chemistry (1st Class Hons) - Durham University</li>
+              </ul>
             </div>
           </div>
     </section>
