@@ -5,13 +5,9 @@ export default function HeroSection() {
     return (
     
          <section id="profile">
-         <div className="section__pic-container">
-           <img src="./img/headshot.png" alt="Alice Wilson profile picture" class="hero-pic"/>
-         </div>
          <div className="section__text">
-           <p className="section__text__p1">Hello, I'm</p>
-           <h1 className="title">Alice Wilson</h1>
-           <p className="section__text__p2">Full-stack Developer</p>
+           <h1 className="title">Hiya! I'm Alice.</h1>
+           <p className="section__text__p2">I'm a creative, empathetic and enthusiastic early professional with a diverse background spanning science, law and tech.</p>
            <div className="btn-container">
            <button className="btn btn-color-2" onClick={() => {openInNewTab('./img/cv.pdf')}}>Download CV</button>
                       

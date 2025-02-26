@@ -1,10 +1,7 @@
 export default function ContactMe() {
 return (
     <section id="Contact">
-        <p className="section__text__p1">
-            Get In Touch
-        </p>
-        <h1 className="title">Contact Me</h1>
+        <h1 className="contact">Contact Me</h1>
         <div className="contact-info-upper-container">
             <div className="contact-info-container">
                 <img src="./img/email.png" alt="email icon" className="icon contact-icon email-icon"/>

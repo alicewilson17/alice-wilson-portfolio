@@ -1,14 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Knewave&display=swap');
+
 /*Global CSS*/
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: "Roboto", sans-serif;
-  -moz-osx-font-smoothing: "Roboto", sans-serif;
   font-style: normal;
+  background-color: #fcf8ff;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    padding: 10px;
+  }
+}
+
+h1 {  font-family: "Knewave", serif;
+}
+
 h1,
 h2,
 h3,
@@ -20,7 +40,7 @@ p {
 }
 
 :root {
-  --primary: #c3714e;
+  --primary: #7d4b94;
   --heading-color: #282938;
   --bg-shade: #fdf0f8;
   --black: #000;
@@ -219,12 +239,9 @@ h2 {
 
 /*Hero Section Style*/
 #profile {
-  margin-top: 5rem;
+  margin-top: 3rem;
   display: flex;
   justify-content: center;
-  gap: 6rem;
-  height: 85vh;
-  margin-bottom: 5rem;
 }
 
 .section__pic-container {
@@ -243,7 +260,6 @@ h2 {
 .section__text {
   align-self: center;
   text-align: center;
-  line-height: 3.25rem;
 }
 
 
@@ -256,13 +272,14 @@ h2 {
 }
 
 .section__text__p2 {
-  font-size: 3rem;
   margin-bottom: 1rem;
-  font-weight: 600;
+  font-weight: 300;
+  font-size: 1.2rem;
 }
 
 .title {
-  font-size: 4rem;
+  font-size: 6rem;
+  margin-bottom: 3rem;
   text-align: center;
   color: var(--primary)
 }
@@ -287,12 +304,6 @@ h2 {
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
-}
-
-
-.section__text__p2 {
-  font-size: 1.75rem;
-  margin-bottom: 1rem;
 }
 
 #socials-container {
@@ -617,13 +628,15 @@ font-size: 32px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 70vh;
+
+}
+.contact {
+  text-align: center;
 }
 .contact-info-upper-container {
   border: rgb(53, 53, 53);
   border-color: rgb(163, 163, 163);
   border-radius: 2rem;
-  background: rgb(250, 250, 250);
   display: flex;
   justify-content: center;
   margin: 2rem auto;
@@ -687,5 +700,120 @@ font-size: 32px;
   }
   .skills__name {
     font-size: 0.875rem;
+  }
+}
+
+
+.portfolio-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.portfolio-header {
+  margin-bottom: 20px;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  color: #777;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.portfolio-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.portfolio-card:hover {
+  transform: scale(1.05);
+}
+
+.portfolio-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.portfolio-content {
+  padding: 15px;
+}
+
+.portfolio-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.portfolio-desc {
+  font-size: 14px;
+  color: #555;
+  margin: 10px 0;
+}
+
+.portfolio-tech {
+  font-size: 14px;
+  color: #888;
+}
+
+.portfolio-links {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.portfolio-links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: var(--primary);
+  font-weight: 700;
+  border: 1px solid gray;
+  padding: 0.5rem;
+  border-radius: 1rem;
+
+}
+
+.portfolio-links a:hover {
+  background-color: #b685cd;
+}
+
+@media (max-width: 768px) {
+  .portfolio-container {
+    grid-template-columns: 1fr;
+    width: 80vw;
+  }
+  .section__text {
+    width: 80vw;
+  }
+  .title {
+    font-size: 5rem;
+    line-height: 6rem;
+    margin-bottom: 1rem;
+  }
+  .section__text__p2 {
+    font-size: 1.2rem;
+  }
+  .contact {
+    font-size: 3rem;
+  }
+  .contact-info-upper-container {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+  
+    
   }
 }
